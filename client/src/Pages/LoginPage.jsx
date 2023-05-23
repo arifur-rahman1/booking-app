@@ -6,8 +6,8 @@ export default function LoginPage (){
             <div className="mb-32">
             <h1 className="text-4xl text-center mb-4">Login</h1>
             <form className="max-w-md mx-auto">
-                <input type="email" placeholder='Enter Your Email' />
-                <input type="password" placeholder='Enter Your Password' />
+                <input className="p-2" type="email" placeholder='Enter Your Email' />
+                <input className="p-2" type="password" placeholder='Enter Your Password' />
                 <button className="primary">
                     Login
                 </button>

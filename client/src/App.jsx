@@ -1,3 +1,4 @@
+import axios from 'axios'
 import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
@@ -5,6 +6,8 @@ import Layout from './Layout'
 import IndexPages from './Pages/IndexPages'
 import LoginPage from './Pages/LoginPage'
 import RegisterPage from './Pages/RegsiterPage'
+
+axios.defaults.baseURL= 'http://localhost:4000'
 
 function App() {
   const [count, setCount] = useState(0)
